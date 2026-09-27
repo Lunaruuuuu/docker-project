@@ -7,16 +7,14 @@ Proyek ini bertujuan untuk mendemonstrasikan konsep dasar containerization, isol
 
 ## Cara Build Docker Image
 Buka terminal di direktori proyek ini, lalu jalankan perintah berikut:
-\`\`\`bash
-docker build -t app-cetak-waktu .
-\`\`\`
+`docker build -t app-cetak-waktu .`
 *Keterangan: `-t app-cetak-waktu` digunakan untuk memberikan nama (tag) pada image yang dibuild.*
 
 ## Cara Menjalankan Docker Container
 Setelah proses build selesai tanpa error, jalankan container dengan perintah:
-\`\`\`bash
+`
 docker run --rm app-cetak-waktu
-\`\`\`
+\`
 *Keterangan: Flag `--rm` memastikan container akan langsung dihapus secara otomatis dari sistem setelah script selesai dieksekusi, sehingga menghemat ruang penyimpanan.*
 
 ## Tangkapan Layar Hasil Eksekusi
