@@ -18,6 +18,4 @@ docker run --rm app-cetak-waktu
 *Keterangan: Flag `--rm` memastikan container akan langsung dihapus secara otomatis dari sistem setelah script selesai dieksekusi, sehingga menghemat ruang penyimpanan.*
 
 ## Tangkapan Layar Hasil Eksekusi
-*(Unggah screenshot terminal Anda ke GitHub dan masukkan link gambarnya di bawah ini)*
-
 ![Screenshot Eksekusi Terminal]![alt text](image-1.png)
